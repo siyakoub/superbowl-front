@@ -1,13 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b59e0692-5805-4e3f-ab3e-46ed472002ea" name="Changes" comment="Initial commit, création react App">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="b59e0692-5805-4e3f-ab3e-46ed472002ea" name="Changes" comment="Configuration packages node, organisation de la nomenclature générale de l'application, Développement du template de la page de login">
+      <change beforePath="$PROJECT_DIR$/src/components/AuthForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AuthForm.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -28,13 +39,23 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/mehdisi-yakoub/WebstormProjects/superbowl-front/src/assets",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_interpreter_path": "node",
     "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "/Users/mehdisi-yakoub/WebstormProjects/superbowl-front/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets" />
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
+  </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
@@ -58,7 +79,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1696910303326</updated>
-      <workItem from="1696910304369" duration="172000" />
+      <workItem from="1696910304369" duration="12476000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit, création react App">
       <option name="closed" value="true" />
@@ -68,7 +89,31 @@
       <option name="project" value="LOCAL" />
       <updated>1696910442909</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial commit, création react App">
+      <option name="closed" value="true" />
+      <created>1696910480926</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1696910480926</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Configuration packages node, organisation de la nomenclature générale de l'application, Développement du template de la page de login">
+      <option name="closed" value="true" />
+      <created>1697478783710</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1697478783710</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Configuration packages node, organisation de la nomenclature générale de l'application, Développement du template de la page de login">
+      <option name="closed" value="true" />
+      <created>1697478888763</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1697478888763</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -76,6 +121,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit, création react App" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit, création react App" />
+    <MESSAGE value="Configuration packages node, organisation de la nomenclature générale de l'application, Développement du template de la page de login" />
+    <option name="LAST_COMMIT_MESSAGE" value="Configuration packages node, organisation de la nomenclature générale de l'application, Développement du template de la page de login" />
   </component>
 </project>
