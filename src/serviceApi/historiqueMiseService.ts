@@ -104,8 +104,7 @@ export async function deleteHistorique(idHisto: number) : Promise<HistoriqueMise
     if (!response.ok) {
         throw new Error("Une erreur est survenue lors de la suppression de l'historique de mise...")
     }
-    const data = await response.json();
-    return data;
+    return await response.json();
 }
 
 export interface HistoriqueMise{

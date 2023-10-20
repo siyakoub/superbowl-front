@@ -42,7 +42,7 @@ export async function getTeamByName(teamName: string): Promise<Team> {
     if (!response.ok){
         throw new Error("Une erreur est survenue lors de la récupération de l'équipe")
     }
-    if (response.status == 404){
+    if (response.status === 404){
         throw new Error('Aucune équipes n\'a été trouvé...')
     }
     const data = await response.json();

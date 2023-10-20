@@ -101,8 +101,7 @@ export async function deleteComment(idComment: number): Promise<any> {
     if (!response.ok){
         throw new Error("Une erreur est survenue lors de la suppression du commentaire...");
     }
-    const data = await response.json();
-    return data;
+    return await response.json();
 }
 
 export interface UpdatedComment{

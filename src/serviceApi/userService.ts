@@ -72,8 +72,7 @@ export async  function login(loginUser:LoginUser): Promise<User>{
     if (!response.ok){
         throw new Error("Erreur lors de la connexion de l'utilisateur...");
     }
-    const data = await response.json();
-    return data;
+    return await response.json();
 }
 
 
@@ -88,8 +87,8 @@ export async function logout(token: string){
     if (!response.ok){
         throw new Error('Erreur lors de la déconnexion de l\'utilisateur');
     }
-    const data = await response.json();
-    return data;
+
+    return await response.json();
 }
 
 

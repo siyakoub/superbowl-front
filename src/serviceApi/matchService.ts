@@ -95,8 +95,7 @@ export async function deleteMatch(idMatch: number): Promise<any> {
         throw new Error("Une erreur est survenue lors de la suppression du match...")
     }
 
-    const data = await response.json();
-    return data;
+    return await response.json();
 }
 
 export interface ByMatch{

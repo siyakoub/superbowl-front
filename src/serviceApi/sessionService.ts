@@ -1,5 +1,3 @@
-import {promises} from "dns";
-
 const baseUrl = 'http://127.0.0.1:5000/api/session'
 
 
@@ -61,7 +59,8 @@ export async function getSessionByToken(token: string) : Promise<Session>{
     const response = await fetch(baseUrl + '/sessions/bytoken', {
         method: 'GET',
         headers: {
-            'Content-Type': 'application/json'
+            'Content-Type': 'application/json',
+            'token': token
         }
     });
     if (response.status === 404){

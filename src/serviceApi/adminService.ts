@@ -60,9 +60,7 @@ export async function deleteAdmin(login: string): Promise<any>{
     if (!response.ok){
         throw new Error("Une erreur est survenue lors de la suppression de l'administrateur...")
     }
-
-    const data = await response.json();
-    return data;
+    return await response.json();
 
 }
 
